@@ -14,6 +14,7 @@
 		896754A51C81345000057E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896754A31C81345000057E20 /* LaunchScreen.storyboard */; };
 		896754B01C81345000057E20 /* AnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896754AF1C81345000057E20 /* AnimationDemoTests.swift */; };
 		896754BB1C81345000057E20 /* AnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896754BA1C81345000057E20 /* AnimationDemoUITests.swift */; };
+		896754C91C81347D00057E20 /* PRTransformLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896754C81C81347D00057E20 /* PRTransformLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		896754B61C81345000057E20 /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		896754BA1C81345000057E20 /* AnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITests.swift; sourceTree = "<group>"; };
 		896754BC1C81345000057E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896754C81C81347D00057E20 /* PRTransformLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRTransformLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8967549A1C81345000057E20 /* AppDelegate.swift */,
 				8967549C1C81345000057E20 /* ViewController.swift */,
+				896754C81C81347D00057E20 /* PRTransformLayer.swift */,
 				8967549E1C81345000057E20 /* Main.storyboard */,
 				896754A11C81345000057E20 /* Assets.xcassets */,
 				896754A31C81345000057E20 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896754C91C81347D00057E20 /* PRTransformLayer.swift in Sources */,
 				8967549D1C81345000057E20 /* ViewController.swift in Sources */,
 				8967549B1C81345000057E20 /* AppDelegate.swift in Sources */,
 			);
